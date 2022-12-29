@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <nav class="flex item-end">
+        <img src="images/moon.png" alt="" class="toggle-btn img">
+    </nav>
+    <h1 class="text-center">Welcome to Calculate me</h1>
+    <div class="container flex flex-col item-center">
+        <div class="row">
+            <input type="text" class="input white">
+        </div>
+        <div class="row">
+            <button class="button grey">C</button>
+            <button class="button grey">%</button>
+            <button class="button grey">M</button>
+            <button class="button grey">M</button>
+        </div>
+        <div class="row">
+            <button class="button black">7</button>
+            <button class="button black">8</button>
+            <button class="button black">9</button>
+            <button class="button orange">*</button>
+        </div>
+        <div class="row">
+            <button class="button black">4</button>
+            <button class="button black">5</button>
+            <button class="button black">6</button>
+            <button class="button orange">/</button>
+        </div>
+        <div class="row">
+            <button class="button black">1</button>
+            <button class="button black">2</button>
+            <button class="button black">3</button>
+            <button class="button orange">+</button>
+        </div>
+        <div class="row">
+            <button class="button black">0</button>
+            <button class="button black">.</button>
+            <button class="button black">-</button>
+            <button class="button orange">=</button>
+        </div>
+    </div>
+    <div class="flex flex-col item-center sorry">
+        Welcome to the Calculator!
+        <ul>
+            <li>
+                The % ,M keys do not work. Sorry for the inconvience caused 🙏🏻
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

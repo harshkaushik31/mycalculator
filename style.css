@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto Mono',monospace;
+    
+}
+.button{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin: 0rem 0rem 0rem 0rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.row{
+    margin: 0.5rem 0rem;
+}
+.row input{
+    margin: 1rem;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    font-size: 1rem;
+    width: 15rem;
+}
+.img{
+    height: 2rem;
+    width: 2rem;
+}
+.sorry{
+    margin: 5rem;
+    font-size: 1.25rem;
+}
